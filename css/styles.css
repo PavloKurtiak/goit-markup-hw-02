@@ -1,0 +1,89 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --team-background-color: #F5F4FA;
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo-blue {
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--title-text-color);
+}
+.logo-white {
+  color: var(--primary-white-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--title-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.address-link {
+  color: var(--primary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.advantages {
+  font-size: 0;
+}
+.advantages-title {
+  color: var(--title-text-color);
+}
+
+.headlines {
+  color: var(--title-text-color);
+}
+.team {
+    background-color: var(--team-background-color);
+}
+.employee-name {
+  color: var(--title-text-color);
+}
+
+.profession-name {
+}
+.address-text {
+  color: var(--primary-white-color);
+}
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+header {
+    background-color: var(--primary-white-color);
+}
