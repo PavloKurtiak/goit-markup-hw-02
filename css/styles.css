@@ -7,12 +7,29 @@
   --team-background-color: #f5f4fa;
 }
 
+footer {
+  background-color: var(--footer-background-color);
+}
+
+header {
+  background-color: var(--primary-white-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
 body {
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
 }
 
 .logo-blue {
@@ -55,13 +72,19 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
 }
 
 .advantages {
   font-size: 0;
 }
+
 .advantages-title {
   color: var(--title-text-color);
+}
+
+.advantages-text {
+  color: var(--primary-text-color);
 }
 
 .headlines {
@@ -75,6 +98,7 @@ body {
 }
 
 .profession-name {
+  color: var(--primary-text-color);
 }
 
 .address-text {
@@ -84,6 +108,7 @@ body {
 .portfolio-button {
   color: var(--title-text-color);
   background-color: var(--team-background-color);
+  font-family: inherit;
 }
 
 .portfolio-button:hover,
@@ -97,12 +122,5 @@ body {
 }
 
 .portfolio-text {
-}
-
-footer {
-  background-color: var(--footer-background-color);
-}
-
-header {
-  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
