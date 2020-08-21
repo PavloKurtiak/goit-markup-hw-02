@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --footer-background-color: #2f303a;
-  --team-background-color: #F5F4FA;
+  --team-background-color: #f5f4fa;
 }
 
 body {
@@ -68,7 +68,7 @@ body {
   color: var(--title-text-color);
 }
 .team {
-    background-color: var(--team-background-color);
+  background-color: var(--team-background-color);
 }
 .employee-name {
   color: var(--title-text-color);
@@ -76,8 +76,27 @@ body {
 
 .profession-name {
 }
+
 .address-text {
   color: var(--primary-white-color);
+}
+
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--team-background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
 }
 
 footer {
@@ -85,5 +104,5 @@ footer {
 }
 
 header {
-    background-color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
