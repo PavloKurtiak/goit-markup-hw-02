@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    background-color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 a {
@@ -56,10 +56,10 @@ body {
 
 .link {
   color: var(--title-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.15;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -69,10 +69,11 @@ letter-spacing: 0.02em;
 
 .address-link {
   color: var(--primary-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.15;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address-link:hover,
@@ -83,11 +84,11 @@ letter-spacing: 0.02em;
 .hero {
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -95,9 +96,9 @@ letter-spacing: 0.06em;
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .advantages {
@@ -107,26 +108,26 @@ letter-spacing: 0.06em;
 .advantages-title {
   color: var(--title-text-color);
   font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .advantages-text {
   color: var(--primary-text-color);
   font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .headlines {
   color: var(--title-text-color);
   font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--team-background-color);
@@ -134,19 +135,19 @@ letter-spacing: 0.03em;
 .employee-name {
   color: var(--title-text-color);
   font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .profession-name {
   color: var(--primary-text-color);
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* мейн портфолио */
 .portfolio-button {
@@ -154,10 +155,10 @@ letter-spacing: 0.03em;
   background-color: var(--team-background-color);
   font-family: inherit;
   font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-button:hover,
@@ -169,24 +170,24 @@ letter-spacing: 0.03em;
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
   color: var(--primary-text-color);
   font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 /* футер */
 .address-text {
   color: var(--primary-white-color);
   font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
-
