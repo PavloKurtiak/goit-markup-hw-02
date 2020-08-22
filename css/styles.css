@@ -81,7 +81,7 @@ body {
   color: var(--accent-color);
 }
 /* мейн студия */
-.hero {
+.hero, h1{
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
   font-weight: 900;
